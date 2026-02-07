@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/selectBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video Seç" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Henüz seçim yok" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Premium" />
+
+        <Switch
+            android:id="@+id/premiumSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/checkPremiumBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sunucudan Premium Kontrol Et" />
+
+    <Button
+        android:id="@+id/activateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sunucuda Aktivasyon Yap" />
+
+    <TextView
+        android:id="@+id/logPath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Log: -" />
+
+    <Button
+        android:id="@+id/selectAudioBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ses Dosyası Seç" />
+
+    <TextView
+        android:id="@+id/audioPath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ses: -" />
+
+    <Button
+        android:id="@+id/selectSubtitleBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Altyazı Dosyası Seç (SRT)" />
+
+    <TextView
+        android:id="@+id/subtitlePath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Altyazı: -" />
+
+    <EditText
+        android:id="@+id/startInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Başlangıç (ör: 00:00:05)" />
+
+    <EditText
+        android:id="@+id/endInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bitiş (ör: 00:00:10)" />
+
+    <Button
+        android:id="@+id/trimBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kırp" />
+
+</LinearLayout>
