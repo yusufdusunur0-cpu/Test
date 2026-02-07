@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Video Trimmer</string>
+    <string name="select_video">Video Seç</string>
+    <string name="trim_button">Videoyu Kıs</string>
+    <string name="start_time">Başlangıç Zamanı (sn)</string>
+    <string name="end_time">Bitiş Zamanı (sn)</string>
+    <string name="status_text">Henüz seçim yok</string>
+    <string name="premium_label">Premium</string>
+    <string name="check_premium">Sunucudan Premium Kontrol Et</string>
+    <string name="activate">Sunucuda Aktivasyon Yap</string>
+    <string name="no_video_selected">Lütfen önce video seçin</string>
+    <string name="processing">İşleniyor...</string>
+    <string name="done">Tamamlandı:</string>
+    <string name="error">Hata:</string>
+    <string name="audio_path">Ses Dosyası:</string>
+    <string name="subtitle_path">Altyazı:</string>
+    <string name="select_audio">Ses Seç</string>
+    <string name="select_subtitle">Altyazı Seç</string>
+    <string name="log_path">Log Dosyası:</string>
+    <string name="permissions_denied">Gerekli izinler reddedildi</string>
+    <string name="activation_success">Aktivasyon başarılı</string>
+    <string name="activation_failed">Aktivasyon başarısız</string>
+</resources>
